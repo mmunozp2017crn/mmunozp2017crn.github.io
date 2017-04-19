@@ -1,0 +1,35 @@
+/* Movil */
+
+@media only screen and (max-width: 479px) and (orientation: portrait)
+
+{
+	body {background-color:green;}
+
+	p {font-family: arial;}
+}
+
+@media only screen and (max-width: 479px) and (orientation: landscape)
+
+{
+	body {background-color: blue;}
+
+	p {font-family: verdana;}
+}
+
+/* Escriptori */
+
+@media only screen and (min-width: 480px) and (orientation: portrait)
+
+{
+	body {background-color: olive;}
+
+	p {font-family: courier, monospace;}
+}
+
+@media only screen and (min-width: 480px) and (orientation: landscape)
+
+{
+	body {background-color: yellow;}
+
+	p {font-family: times, georgia;}
+}
