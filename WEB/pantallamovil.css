@@ -1,0 +1,17 @@
+body{
+	margin: 0 auto;
+	background-color:lightblue;
+	 }
+
+div {
+	background-color: orange;
+	width: 300px;
+	height: 300px;
+	border: solid;
+	border-radius: 15px;
+	float: left;
+	margin-bottom: 10px;
+	text-align: center;
+
+
+}
