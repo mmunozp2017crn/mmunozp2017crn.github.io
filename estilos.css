@@ -1,5 +1,5 @@
 /*Mobil*/
-@media only screen and (max-width: 479px) and (orientation: portrait){
+@media only screen and (max-width: 750px) and (orientation: portrait){
 
 	body {background-color: #f0851d;}
 
