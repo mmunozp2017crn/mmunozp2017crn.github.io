@@ -72,12 +72,17 @@
 			#blanco {
 				background-color: white;
 				color: black;
+				padding-bottom: 20px;
 				height: auto;
+				float: left;
 			}
 
 			#letrasblancas {
 				background-color: #f0851d;
 				color: white;
+				padding-top: 40px;
+				padding-bottom: 10px;
+				margin-top: 20px;
 
 			}
 
@@ -90,6 +95,8 @@
 				height: auto;
 				background-color: lightgrey;
 				float: left;
+				position:relative;
+				left: 4%;
 
 			}
 
