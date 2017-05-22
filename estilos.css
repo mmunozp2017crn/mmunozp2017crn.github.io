@@ -44,7 +44,9 @@
 			.nav li ul {
 				display:none;
 				position:absolute;
-				min-width:140px;
+				min-width:23%;
+				font-size: 12;
+
 			}
 			
 			.nav li:hover > ul {
@@ -60,7 +62,7 @@
 				top:0px;
 			}
 
-			
+
 			h1 {
 				padding: 5px 12px;
 				color: black;
@@ -102,7 +104,7 @@
 
 @media only screen and (max-width: 479px) and (orientation: landscape){
 
-	body {background-color: blue;}
+	body {background-image: url(./img/inicio_mobil.jpg);}
 
 	* {
 				margin:0px;
@@ -111,16 +113,18 @@
 			
 			#header {
 				margin:auto;
-				width:500px;
+				width: auto;
 				font-family:Arial, Helvetica, sans-serif;
 			}
 			
 			ul, ol {
 				list-style:none;
+				display: flex;
 			}
 			
 			.nav > li {
 				float:left;
+				flex-grow: 1;
 			}
 			
 			.nav li a {
@@ -133,18 +137,36 @@
 			
 			.nav li a:hover {
 				background-color:#434343;
+				right: 0;
 			}
 			
 			.nav li ul {
 				display:none;
 				position:absolute;
-				min-width:140px;
+				width: 21%;
+				font-size: 12;
 			}
 			
 			.nav li:hover > ul {
 				display:block;
 			}
 			
+			.nav li ul li {
+				position:relative;
+				min-width:50%;
+			}
+
+			.nav li ul #scroll{
+			background-color: black;
+
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+			codigo.html
 			.nav li ul li {
 				position:relative;
 			}
@@ -154,8 +176,7 @@
 				top:0px;
 			}
 
-			#nav {}
-
+					
 			h1, p {
 				padding: 5px 12px;
 			}
@@ -163,6 +184,7 @@
 			h1 {
 				padding: 5px 12px;
 				color: black;
+				text-align: center;
 			}
 
 			p {
@@ -240,13 +262,14 @@
 			.nav li ul {
 				display:none;
 				position:absolute;
-				min-width:140px;
+				min-width:20%;
 			}
 			
 			.nav li:hover > ul {
 				display:block;
 			}
-			
+
+			codigo.html
 			.nav li ul li {
 				position:relative;
 			}
