@@ -1,0 +1,293 @@
+/*Mobil*/
+@media only screen and (max-width: 479px) and (orientation: portrait){
+
+	body {
+		background-image: url(./img/inicio_mobil.jpg);
+		font-family: helvetica;
+	}
+
+
+	* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width: auto;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+				display: flex;
+			}
+			
+			.nav > li {
+				float:left;
+				flex-grow: 1;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+				right: 0;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:23%;
+				font-size: 12;
+
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+
+			h1 {
+				padding: 5px 12px;
+				color: black;
+			}
+
+			p {
+				padding: 5px 12px;
+			}
+
+
+
+			#blanco {
+				background-color: white;
+				color: black;
+				padding-bottom: 20px;
+				height: auto;
+				float: left;
+			}
+
+			#letrasblancas {
+				background-color: #f0851d;
+				color: white;
+				padding-top: 40px;
+				padding-bottom: 10px;
+				margin-top: 20px;
+
+			}
+
+			#titulo_mobil {
+				text-align: center;
+				font-size: 40px;
+				line-height: 150px;
+			}
+
+			
+	
+}
+
+
+@media only screen and (max-width: 479px) and (orientation: landscape){
+
+	body {background-image: url(./img/inicio_mobil.jpg);}
+
+	* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width: auto;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+				display: flex;
+			}
+			
+			.nav > li {
+				float:left;
+				flex-grow: 1;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+				right: 0;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				width: 21%;
+				font-size: 12;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+				min-width:50%;
+			}
+
+			.nav li ul #scroll{
+			background-color: black;
+
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+			codigo.html
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+					
+			h1, p {
+				padding: 5px 12px;
+			}
+
+			h1 {
+				padding: 5px 12px;
+				color: black;
+				text-align: center;
+			}
+
+			p {
+				padding: 5px 12px;
+			}
+
+			#blanco {
+				background-color: white;
+				color: black;
+				height: auto;
+			}
+
+			#letrasblancas {
+				background-color: #f0851d;
+				color: white;
+
+			}
+
+			#zonas {
+				padding: 5px 12px;
+				text-align: center;
+				border:solid;
+				border-radius: 2px;
+				width: 40%;
+				height: auto;
+				background-color: lightgrey;
+				float: left;
+
+			}
+
+
+}
+
+@media only screen and (min-width: 480px){
+
+	body {
+		background-image: url(./img/inicio_mobil.jpg);
+		font-family: helvetica;
+	}
+
+
+	* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				font-family:Arial, Helvetica, sans-serif;
+				text-align: center;
+			}
+			
+			ul, ol {
+				list-style:none;
+				display: flex;
+			}
+			
+			.nav > li {
+				float:left;
+				flex-grow: 1;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:20%;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+
+			codigo.html
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+			#titulo_mobil {
+				text-align: center;
+				font-size: 100px;
+				line-height: 400px;
+			}
+
+
+
+
+
+
+}
