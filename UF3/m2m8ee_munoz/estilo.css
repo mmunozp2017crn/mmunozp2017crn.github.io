@@ -1,0 +1,112 @@
+@media only screen and (min-width: 480px){
+
+* {
+				margin:0px;
+				padding:0px;
+
+			}
+
+			body {
+				background-color: #34495e;
+				margin:  auto;
+
+			}
+			
+			img {
+				padding: 5px;
+				background-color:  #34495e;
+				border-radius: 10px;
+				opacity: 1.0;
+				filter: alpha(opacity=50);
+			}
+
+			img:hover {
+				opacity: 0.5;
+				filter: filter: alpha(opacity=100);
+
+			}
+
+
+
+			#cabecera {
+				margin:auto;
+				font-family: Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+
+			}
+			
+			.nav > li {
+				float:left;
+				width: auto;
+			}
+			
+			.nav li a {
+				background-color:#CCC;
+				color: #FFF;
+				text-decoration:none;
+				padding:10px 12px;
+				display: block;
+				height: 50px;
+				line-height: 50px;
+				font-size: 20px;
+
+			}
+			
+			.nav li a:hover {
+
+				background-color:#FFF;
+				color: #CCC;
+				opacity: 0.5;
+
+			}
+			
+			
+			#contenedor {
+				margin: 0 auto;
+				width: 1024px;
+				height: 555px;
+
+
+
+			}
+
+			.cajas {
+				float: left;
+			}
+
+
+			#seccio {
+				color: #FFF;
+				clear: both;
+				padding-top: 15px;
+				font-size: 22px;
+				text-decoration: none;
+			}
+
+			.byn {
+				-webkit-filter: grayscale(100%);
+				-moz-filter:grayscale(100%);
+				filter: grayscale(100%);
+			}
+
+			.peli {
+				font-family: helvetica, sans-serif;
+				font-size: 14px;
+				color: #CCC;
+			}
+
+			.año {
+				font-family: helvetica, sans-serif;
+				font-size: 11px;
+				color: #CCC;
+			}
+
+}
+
+
+
+
+			
